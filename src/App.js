@@ -1,10 +1,12 @@
 import './App.css';
 import CardList from './components/CardList';
-import Counter from './components/Counter';
+/* import Counter from './components/Counter'; */
+import ListTotal from './components/ListTotal';
 
 function App() {
   return (
     <div className="App">
+      <ListTotal />
       <CardList />
     </div>
   );

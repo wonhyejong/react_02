@@ -1,0 +1,21 @@
+.card{
+    width: 250px;
+    height: 250px;
+    border:1px solid #787;
+    list-style: none;
+    margin:10px
+}
+.card dl{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+.card dd{
+    font-size: 0.8rem;
+}
+.card-wrap{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+}

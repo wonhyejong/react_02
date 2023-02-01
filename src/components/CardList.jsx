@@ -2,6 +2,7 @@ import React from 'react';
 import CardItem from './CardItem';
 import { useState ,useEffect } from 'react';
 import axios from 'axios';
+import './card.css';
 
 const CardList = () => {
     const [cardData, setCardData] = useState([]);
@@ -22,7 +23,7 @@ const CardList = () => {
     return (
         <div>
             <h3>CardList</h3>
-            <ul className='card_wrap'>
+            <ul className='card-wrap'>
             {
                 cardData.map((item)=><CardItem key={item.id} card={item}/>)
             }

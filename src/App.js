@@ -4,11 +4,13 @@ import CardList from './components/CardList';
 import ListTotal from './components/ListTotal';
 import Style from './components/Style';
 import Globalstyle from './components/Globalstyle';
+import CanSlider from './components/CanSlider';
 
 function App() {
   return (
     <div className="App">
       <Globalstyle />
+      <CanSlider />
       <Style />
       <ListTotal />
       <CardList />

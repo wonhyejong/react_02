@@ -5,11 +5,13 @@ import ListTotal from './components/ListTotal';
 import Style from './components/Style';
 import Globalstyle from './components/Globalstyle';
 import CanSlider from './components/CanSlider';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
       <Globalstyle />
+      <Banner />
       <CanSlider />
       <Style />
       <ListTotal />

@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import CardList from './components/CardList';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CardList />
     </div>
   );
 }
 
 export default App;
+
+//useState 
+//useEffect 
+//useCallback  
+// 퍼블릭 폴더 정적인 파일들(이미지,...), 앱컴파일에 필요하지 않은 요소 절대경로 사용이 가능해진다. 
+// src 폴더 앱이 컴파일 할때 사용되는 요소들 

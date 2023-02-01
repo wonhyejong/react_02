@@ -2,10 +2,14 @@ import './App.css';
 import CardList from './components/CardList';
 /* import Counter from './components/Counter'; */
 import ListTotal from './components/ListTotal';
+import Style from './components/Style';
+import Globalstyle from './components/Globalstyle';
 
 function App() {
   return (
     <div className="App">
+      <Globalstyle />
+      <Style />
       <ListTotal />
       <CardList />
     </div>
